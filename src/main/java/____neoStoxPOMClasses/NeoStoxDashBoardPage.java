@@ -27,7 +27,9 @@ public class NeoStoxDashBoardPage {
 		if(popUpOkButton.isDisplayed())
 		{
 			Utility.ExplicitWait(driver, 8, popUpOkButton);	
+			
 			Utility.scrollIntoView(driver, popUpOkButton);
+			
 			Thread.sleep(2000);
 			popUpOkButton.click();
 			Reporter.log("clicking on PopUp ok button", true);
