@@ -71,5 +71,8 @@ public class NeoStoxDashBoardPage {
 		  Reporter.log("Account balance is "+balance, true);
 		  return balance;
 	}
+	
+	//comment
+	
 
 }
